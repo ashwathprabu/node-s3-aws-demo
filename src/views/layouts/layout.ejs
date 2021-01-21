@@ -1,0 +1,53 @@
+  
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+</head>
+
+<body>
+  <div style="margin-top: 0px;" class="card-panel blue-grey darken-4 z-depth-0">
+    <nav class="z-depth-0 blue-grey darken-4">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png" alt=""></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a  data-target="modal1" class="orange darken-3 modal-trigger btn-large" style="font-weight: bold;"><i class="material-icons left">cloud</i>Upload Image</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+   <!-- Modal Structure -->
+   <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+ <!-- Compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  // var instance = M.Modal.getInstance(elem);
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems);
+  });
+
+  // Or with jQuery
+
+  // $(document).ready(function(){
+  //   $('.modal').modal();
+  // });
+</script>
+</body>
+</html>
